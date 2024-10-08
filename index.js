@@ -6,6 +6,7 @@ http.createServer(function(req, res) {
     const userAgent = req.headers['user-agent'];
     let message;
 
+    //This uses req res to identify what browser is being used and show appropriate statements
     if (userAgent.includes('Chrome') && !userAgent.includes('Edg')) {
         message = "<p>You are using Google Chrome.</p>";
     } else if (userAgent.includes('Edg')) {

@@ -28,6 +28,7 @@ http.createServer(function(req, res) {
                 <h2>Welcome to My Web App</h2>
                 <p>I am second year Creative Computing undergrad at Goldsmiths, University of London</p>
                 ${message}
+                <p>This is to check whether git has been pulled to vm properly<p>
             </body>
         </html>
     `);
@@ -35,3 +36,5 @@ http.createServer(function(req, res) {
     console.log(`Node server is running on port ${port}...`); 
 });
 
+
+console.log ('The node server has to fia_')

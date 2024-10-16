@@ -27,7 +27,7 @@ http.createServer(function(req, res) {
                 <h1>Hello, I'm Anushka Ishana</h1>
                 <h2>Welcome to My Web App</h2>
                 <p>I am second year Creative Computing undergrad at Goldsmiths, University of London</p>
-                <p>This is to check whether git has been pulled to vm properly<p>
+                <p>This is to check whether git has been pulled to vm properly...<p>
                 ${message}
             </body>
         </html>
